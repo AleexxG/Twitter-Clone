@@ -1,0 +1,23 @@
+.main {
+    flex: 0.5;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+.main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 2;
+    border: 1px solid var(--twitter-background);
+    padding: 15px 20px;
+}

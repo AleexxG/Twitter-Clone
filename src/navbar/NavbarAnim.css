@@ -1,0 +1,30 @@
+.navbarAnim {
+    display: flex;
+    align-items: center;
+}
+
+.navbarAnim .MuiSvgIcon-root {
+    padding: 20px;
+}
+
+.navbarAnim h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navbarAnim-active h2 {
+    color: var(--twitter-color);
+    font-weight: 700;
+}
+.navbarAnim-active .MuiSvgIcon-root {
+    color: var(--twitter-color);
+    font-weight: 700;
+}
+
+.navbar :hover {
+    background: rgb(232,245,254);
+    color: var(--twitter-color);
+    transition: color 0.15s ease-out;
+    border-radius: 30px;
+}

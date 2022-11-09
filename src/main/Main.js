@@ -1,6 +1,7 @@
 import React from 'react';
-import Tweet from './Tweet';
 import './Main.css';
+import Tweet from './Tweet';
+import Post from './Post';
 
 function Main() {
   return (
@@ -10,6 +11,12 @@ function Main() {
         </div>
 
       <Tweet />
+
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
 
     </div>
   );

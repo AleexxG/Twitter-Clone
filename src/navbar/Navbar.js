@@ -1,6 +1,6 @@
 import React from 'react';
-import NavbarAnim from './NavbarAnim';
 import './Navbar.css';
+import NavbarAnim from './NavbarAnim';
 
 import TwitterIcon from '@mui/icons-material/Twitter';
 import HomeIcon from '@mui/icons-material/Home';

@@ -1,0 +1,46 @@
+.tweet {
+    margin: 1rem;
+    position: relative;
+    border-bottom: 1px solid var(--twitter-background);
+    padding-bottom: 5.5rem;
+}
+
+.tweet-input-avatar {
+    height: 50px;
+    width: 50px;
+}
+
+.tweet-input input {
+    display: grid;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 83%;
+}
+
+.tweet-input-text {
+    margin-top: 0.5rem;
+    height: 35px;
+    font-size: 18px;
+    border: none;
+}
+
+.tweet-input-url {
+    margin-top: 3.6rem;
+    border: none;
+}
+
+.tweet-input-btn {
+    width: 20%;
+    background-color: var(--twitter-color) !important;
+    color: white !important;
+    font-weight: 700 !important;
+    text-transform: capitalize !important;
+    border: none !important;
+    border-radius: 30px !important;
+    margin-top: 40px !important;
+    height: 35px !important;
+    position: absolute !important;
+    right: 0 !important;
+}
+

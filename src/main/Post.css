@@ -1,0 +1,43 @@
+.post {
+    padding: 2rem 1rem;
+    display: flex;
+    border-bottom: 1px solid var(--twitter-background);
+}
+
+.post-content {
+    padding-left: 1rem;
+}
+
+.post-name {
+    font-size: 12px;
+}
+
+.post-verified {
+    font-size: 20px;
+    color: var(--twitter-color);
+    margin-left: 3px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.post-username {
+    font-weight: 100;
+}
+
+.post-text {
+    margin-bottom: 1rem;
+}
+
+.post-image img {
+    max-width: 100%;
+    min-width: 200px;
+    max-height: 550px;
+    min-height: 300px;
+    border-radius: 18px;
+}
+
+.post-interaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
